@@ -1,0 +1,51 @@
+<div class="container newtonCotesFormulario">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-log-12 col-xl-12 my-2">
+          <label>Ingrese numero y luego una coma</label>
+        </div>
+        <div class="col-6 col-sm-12 col-md-12 col-log-6 col-xl-6 my-2">
+          <label for="">Ingrese las X</label>
+          <input
+            class="form-control bg-dark text-white"
+            type="text"
+            value="0,0.25,0.5,0.75,1"
+            placeholder="Ingrese una cantidad"
+            id="valoresX"
+            pattern="\d\.*,*"
+          />
+        </div>
+        <div class="col-6 col-sm-12 col-md-12 col-log-6 col-xl-6 my-2">
+          <label for="">Ingrese las Y</label>
+          <input
+            class="form-control bg-dark text-white"
+            type="text"
+            value="1.2,1.10352,0.925,0.63633,0.2"
+            placeholder="Ingrese una cantidad"
+            id="valoresY"
+            pattern="\d\.*,*"
+          />
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-log-12 col-xl-12 my-2">
+        <label for="">Seleccione tipo de derivada</label>
+          <select class="form-control bg-dark text-white" id="opciones">
+            <option value="0">Seleccione..</option>
+            <option value="1">Progresiva</option>
+            <option value="2">Regresiva</option>
+            <option value="3">Centrada</option>
+          </select>
+        </div>
+      </div>
+      <div class="row my-2">
+        <button
+          type="button"
+          class="btn btn-dark border-white centerBoton my-3"
+          id="calcular"
+          onclick="getMetodoDiferenciacionNumerica()"
+        >
+          Calcular
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

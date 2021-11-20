@@ -1,0 +1,71 @@
+<div class="container newtonCotesFormulario">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-log-4 col-xl-12 my-2">
+          <label for="exampleInputEmail1">Ingrese la derivada</label>
+          <input
+            class="form-control bg-dark text-white"
+            type="text"
+            value="2 * x * y"
+            placeholder="Ingrese una derivada"
+            id="eq"
+          />
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-6 col-sm-12 col-md-12 col-log-4 col-xl-6 my-2">
+          <label for="exampleInputEmail1">Ingrese limite Inferior</label>
+          <input
+            class="form-control bg-dark text-white"
+            type="number"
+            value="1"
+            placeholder="Ingrese una cantidad"
+            id="limiteInferior"
+          />
+        </div>
+        <div class="col-6 col-sm-12 col-md-12 col-log-4 col-xl-6 my-2">
+          <label for="exampleInputEmail1">Ingrese limite Superior</label>
+          <input
+            class="form-control bg-dark text-white"
+            type="number"
+            value="1"
+            placeholder="Ingrese una cantidad"
+            id="limiteSuperior"
+          />
+        </div>
+        <div class="col-6 col-sm-12 col-md-12 col-log-4 col-xl-6 my-2">
+          <label for="exampleInputEmail1">Ingrese H</label>
+          <input
+            class="form-control bg-dark text-white"
+            type="number"
+            value="0.1"
+            placeholder="Ingrese una cantidad"
+            id="numH"
+          />
+        </div>
+        <div class="col-6 col-sm-12 col-md-12 col-log-4 col-xl-6 my-2">
+          <label for="exampleInputEmail1">Ingrese Xf</label>
+          <input
+            class="form-control bg-dark text-white"
+            type="number"
+            value="1.5"
+            placeholder="Ingrese una cantidad"
+            id="xf"
+          />
+        </div>
+      </div>
+      <div class="row my-2">
+        <button
+          type="button"
+          class="btn btn-dark border-white centerBoton my-3"
+          id="calcular"
+          onclick="getMetodoEulerMejorado()"
+        >
+          Calcular
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

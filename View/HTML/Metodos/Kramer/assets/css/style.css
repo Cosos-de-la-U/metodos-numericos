@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(0, 115, 192, 0.829);
+  background-color: #faf7f7;
+}
+
+.caja {
+  width: 800px !important;
+  /* border: 3px solid green; */
+}
+
+.cajaInterna {
+  width: 100px !important;
+  /* border: 3px solid green; */
+}
+
+.inputNumero {
+  border: 2px solid rgba(0, 115, 192, 0.829);
+  color: rgba(0, 115, 192, 0.829);
+  border-radius: 4px;
+  caret-color: transparent;
+  width: 90%;
+}
+
+.inputNumero:focus {
+  transition: 0.3px;
+  outline: none;
+  background-color: rgba(0, 115, 192, 0.829) !important;
+  border: 2.1px solid rgb(0, 80, 146) !important;
+  color: #fff;
+}
+
+.inputNumero:hover {
+    transition: 0.3px;
+    border: 2px solid rgb(0, 80 146) !important;
+    background-color: rgba(18, 114, 179, 0.829) !important;
+    color: rgba(255, 255, 255, 0.829) !important;
+  }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.boton {
+  background-color: #fff;
+  border-radius: 6px;
+  color: rgba(0, 115, 192, 0.829);
+  border: 2px solid rgba(0, 115, 192, 0.829);
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+}
+
+.boton:hover {
+  transition: 0.5s;
+  background-color: rgba(0, 115, 192, 0.829);
+  color: #fff;
+}
+
+.boton:focus{
+    outline: none;
+}

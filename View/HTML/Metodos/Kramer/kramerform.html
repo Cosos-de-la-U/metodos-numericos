@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Parcial matematica</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- titulo -->
+        <br><h3>Metodo cramer</h3>
+        <!-- caja -->
+        <div class="caja">
+            <!-- row -->
+            <div class="row d-flex justify-content-center">
+                <!-- col -->
+                <div class="col cajaInterna">
+                    <input class="mt-4 inputNumero" type="number" name="" id="num1" value="1"> X<br> 
+                    <input class="mt-4 inputNumero" type="number" name="" id="num4" value="2"> X<br>
+                    <input class="mt-4 inputNumero" type="number" name="" id="num7" value="-1"> X<br>
+                </div>
+                <!-- col -->
+                <div class="col cajaInterna">
+                    <input class="mt-4 inputNumero" type="number" name="" id="num2" value="1"> Y<br> 
+                    <input class="mt-4 inputNumero" type="number" name="" id="num5" value="1"> Y<br>
+                    <input class="mt-4 inputNumero" type="number" name="" id="num8" value="-2"> Y<br>
+                </div>
+                <!-- col -->
+                <div class="col cajaInterna">
+                    <input class="mt-4 inputNumero" type="number" name="" id="num3" value="2"> Z<br>
+                    <input class="mt-4 inputNumero" type="number" name="" id="num6" value="-3"> Z<br>
+                    <input class="mt-4 inputNumero" type="number" name="" id="num9" value="0"> Z<br>
+                </div>
+                <!-- col -->
+                <div class="col cajaInterna">
+                    =  <input class="mt-4 inputNumero" type="number" name="" id="res1" value="3"><br>
+                    =  <input class="mt-4 inputNumero" type="number" name="" id="res2" value="4"><br>
+                    =  <input class="mt-4 inputNumero" type="number" name="" id="res3" value="-5"><br>
+                </div>
+            </div>
+            <!-- button -->
+            <div class="row mt-4 d-flex justify-content-center">
+                <button class="boton mx-5" id="calcular" type="submit">Calcular</button>
+            </div>
+        </div>
+        <!-- caja -->
+        <div class="caja">
+            <h5>Respuestas: </h5>
+            <div class="row">
+                <span class="respuesta m-5" id="respuesta1">X: </span>
+                <span class="respuesta m-5" id="respuesta2">Y: </span>
+                <span class="respuesta m-5" id="respuesta3">Z: </span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/js/cramer.js"></script>
+</html>
