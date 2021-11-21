@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap"
+      rel="stylesheet"
+    />
+    <!--Agradecimientos especiales a boostrap y fontawesome, 
+        licencia en //View/CSS/LICENSE.txt -->
+    <link rel="icon" href="/View/IMG/favicon.ico">
+    <link rel="stylesheet" href="/View/CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="/View/CSS/styles.css" />
+    <link rel="stylesheet" href="/View/CSS/all.min.css" />
+    <link rel="stylesheet" href="/View/CSS/fontawesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Métodos Númericos en la Computación</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header></header>
+      <nav></nav>
+      <div class="Inicio"></div>
+      <div>
+
+        <h2>Matriz Inversa</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/F8IJ3Fklon8" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2>Minimos Cuadrados</h2>
+        <iframe width="420" height="315"
+        src="https://drive.google.com/file/d/1guodQokJZOHYaAidz2NUHLeSLC_2q9FF/preview">
+        </iframe>
+
+        <div class="mt-2">
+          <h2>Euler Mejorado</h2>
+          <iframesrc="https://www.youtube.com/embed/4f2jFYZTOAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </div>
+    <!-- JQuery es maravilo -->
+    <script src="/Controller/JS/jquery-3.5.1.min.js"></script>
+    <script src="/Controller/JS/jquery.includeHTML.min.js"></script>
+    <!-- Aquí se mandan a llavar los otros archivos HTML-->
+    <script>
+      $(document).ready(function () {
+        $("header").loadHTML("/View/HTML/Elementos/header.html");
+        $("nav").loadHTML("/View/HTML/Elementos/nav.html");
+      });
+    </script>
+  </body>
+</html>

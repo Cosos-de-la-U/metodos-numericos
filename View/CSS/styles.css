@@ -4,7 +4,27 @@
 
 body {
   background-color: #212121;
-  color: #c3b8b1;
+  color: rgba(255,255,255,.5);
+}
+
+/* unvisited link */
+a:link {
+  color: rgba(255,255,255,.5);
+}
+
+/* visited link */
+a:visited {
+  color: rgba(255,255,255,.5);
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: rgba(255,255,255,.5);
 }
 
 .jumbotron {
